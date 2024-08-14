@@ -5,9 +5,12 @@ body, h1, h2, p, ul, li {
 }
 
 body {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/background2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
     color: #333;
     padding: 20px;
 }
@@ -36,10 +39,20 @@ main {
 }
 
 main h2 {
-    color: #333;
+    color: #fbfbfb;
 }
 
 main p {
+    margin: 10px 0;
+    color: #fbfbfb;
+}
+
+/* Image Styling */
+#about img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Makes the image circular */
+    display: block;
     margin: 10px 0;
 }
 
