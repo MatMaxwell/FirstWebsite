@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
 
     <!-- Navigation Bar -->
@@ -31,11 +34,28 @@
             <h2>My Projects</h2>
             <p><a href="https://github.com/MatMaxwell/DreamEval" target="_blank">DreamEval</a></p>
         </section>
+        
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/YOUREMAIL" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Matthew's Website</p>
+        <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
     </footer>
 
     <script src="script.js"></script>
